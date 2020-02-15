@@ -456,7 +456,7 @@ body.custom-background { background-image: url("https://www.funeralsingerhire.uk
 	
 	<div class="entry-content">
 		<p>Contact us with a few details about your event, we’ll reply with a quote and, if you’d like to secure our performance, we’ll send you the booking form.</p>
-<form method="POST" name="contact" data-netlify="true">
+<form method="POST" name="contact" data-netlify-recaptcha="true" data-netlify="true">
 <p><label for="name">Name: </label><br />
 <input name="name" required="" type="text" />
 </p>
@@ -496,6 +496,7 @@ body.custom-background { background-image: url("https://www.funeralsingerhire.uk
 <label  for="howfound">How did you find us?</label><br />
 <select class="form-control" name="howfound"><option value="nothing_selected">please select one &#8211; we&#8217;d be grateful if you have a moment</option><option value="recommendation">Word of Mouth Recommendation</option><option value="google">Google</option><option value="facebook">Facebook</option><option value="youtube">YouTube</option><option value="website_link">Website Link</option><option value="musicians_directory">Musicians Directory</option><option value="other_web_search">Other Web Search</option><option value="television">Television</option><option value="radio">Radio</option><option value="yell">Yell.com</option><option value="printed_ad">Printed Advertisement</option><option value="other">Other (we&#8217;d be grateful if you have a moment to let us know)</option></select>
 </p>
+<div data-netlify-recaptcha="true"></div>
 <p><input  type="submit" value="Send" /><br />
 <input name="bot-field" type="hidden" /><br />
 <input name="subject" type="hidden" value="Funeral Singers Hire Enquiry" /><br />
